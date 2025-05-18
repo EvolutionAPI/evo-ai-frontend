@@ -109,6 +109,11 @@ export default function Sidebar() {
             icon: Users,
           },
           {
+            name: "Evolution API",
+            href: "/whatsapp-instances",
+            icon: MessageSquare,
+          },
+          {
             name: "Documentation",
             href: "/documentation",
             icon: FileText,
