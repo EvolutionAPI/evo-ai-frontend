@@ -91,7 +91,7 @@ export default function WhatsAppInstancesPage() {
           <Button 
             onClick={() => loadInstances()} 
             variant="outline"
-            className="border-[#444] text-black hover:bg-[#333] hover:text-white"
+            className="border-[#444] text-black dark:text-white hover:bg-[#333] hover:text-white"
           >
             <RefreshCw className="mr-2 h-4 w-4" />
             Refresh

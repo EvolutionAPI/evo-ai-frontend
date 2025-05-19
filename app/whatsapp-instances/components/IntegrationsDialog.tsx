@@ -792,7 +792,7 @@ export function IntegrationsDialog({
             type="button"
             variant="outline"
             onClick={() => onOpenChange(false)}
-            className="border-[#444] text-black hover:bg-[#333] hover:text-white"
+            className="border-[#444] text-black dark:text-white hover:bg-[#333] hover:text-white"
           >
             Close
           </Button>

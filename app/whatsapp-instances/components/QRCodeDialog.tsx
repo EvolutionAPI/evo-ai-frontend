@@ -215,7 +215,7 @@ export default function QRCodeDialog({
                   width={250} 
                   height={250}
                 />
-                <div className="absolute -top-3 -right-3 w-36 bg-[#00ff9d] text-black font-bold rounded-full h-8 w-8 flex items-center justify-center">
+                <div className="absolute -top-3 -right-3 bg-[#00ff9d] text-black font-bold rounded-full h-8 w-32 flex items-center justify-center">
                   {formatTime(timeLeft)}
                 </div>
               </div>
@@ -279,7 +279,7 @@ export default function QRCodeDialog({
             type="button"
             variant="outline"
             onClick={() => onOpenChange(false)}
-            className="border-[#444] text-black hover:bg-[#333] hover:text-white"
+            className="border-[#444] text-black dark:text-white hover:bg-[#333] hover:text-white"
           >
             Close
           </Button>

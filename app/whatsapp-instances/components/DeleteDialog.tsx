@@ -65,7 +65,7 @@ export default function DeleteDialog({
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>
-            <AlertDialogCancel className="border-[#444] text-black hover:bg-[#333] hover:text-white">
+            <AlertDialogCancel className="border-[#444] text-black dark:text-white hover:bg-[#333] hover:text-white">
               Cancel
             </AlertDialogCancel>
             <AlertDialogAction
